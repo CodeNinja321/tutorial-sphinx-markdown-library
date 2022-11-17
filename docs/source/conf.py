@@ -31,11 +31,12 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst-parser",
+    "myst_parser",
     "sphinx.ext.duration",
     "sphinx.ext.autosectionlabel",
-    "sphinx.ext.autodoc",
     "nbsphinx",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.intersphinx",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
